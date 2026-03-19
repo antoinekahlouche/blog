@@ -1,0 +1,63 @@
+---
+import Australia from "../svgs/Australia.svg?raw";
+import France from "../svgs/France.svg?raw";
+import Quebec from "../svgs/Quebec.svg?raw";
+---
+
+<span id="rotating-name" class="flex items-center gap-2">
+    <span id="rotating-flag" set:html={France} /><span id="rotating-text"> Antoine</span>
+</span>
+
+<script define:vars={{ France, Quebec, Australia }}>
+    const names = [
+        { text: " Antoine", flag: France },
+        { text: " Antoine", flag: Quebec },
+        { text: " Tony", flag: Australia },
+    ];
+    let current = 0;
+    const flagEl = document.getElementById("rotating-flag");
+    const textEl = document.getElementById("rotating-text");
+
+    const BACKSPACE_SPEED = 60;
+    const TYPE_SPEED = 80;
+    const PAUSE = 5000;
+
+    function getChars(str) {
+        return [...new Intl.Segmenter().segment(str)].map((s) => s.segment);
+    }
+
+    function erase(chars, done) {
+        if (chars.length === 0) {
+            done();
+            return;
+        }
+        chars.pop();
+        textEl.textContent = chars.join("");
+        setTimeout(() => erase(chars, done), BACKSPACE_SPEED);
+    }
+
+    function type(chars, target, done) {
+        if (chars.length === target.length) {
+            done();
+            return;
+        }
+        chars.push(target[chars.length]);
+        textEl.textContent = chars.join("");
+        setTimeout(() => type(chars, target, done), TYPE_SPEED);
+    }
+
+    function cycle() {
+        if (!textEl || !flagEl) return;
+        const chars = getChars(textEl.textContent ?? "");
+        erase(chars, () => {
+            current = (current + 1) % names.length;
+            const { text, flag } = names[current];
+            flagEl.innerHTML = flag;
+            type([], getChars(text), () => {
+                setTimeout(cycle, PAUSE);
+            });
+        });
+    }
+
+    setTimeout(cycle, PAUSE);
+</script>

@@ -1,0 +1,20 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import RotatingName from "./RotatingName.astro";
+---
+
+<header class="top-0 bg-bg border-b border-border">
+    <nav class="max-w-3xl mx-auto px-6 h-20 flex items-center justify-between">
+        <a
+            href="/"
+            class="font-title text-3xl "
+        >
+            <RotatingName />
+        </a>
+
+        <div class="flex items-center gap-7">
+            <HeaderLink href="/">About</HeaderLink>
+            <HeaderLink href="/blog">Blog</HeaderLink>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,63 @@
+---
+import { Image } from "astro:assets";
+import AK from "../assets/ak.png";
+import Layout from "../layouts/Layout.astro";
+import GitHub from "../svgs/GitHub.svg?raw";
+import LinkedIn from "../svgs/LinkedIn.svg?raw";
+import RSS from "../svgs/RSS.svg?raw";
+---
+
+<Layout
+    title="Antoine Kahlouche"
+    description="Antoine Kahlouche personal website"
+    image={AK}
+>
+    <main class="max-w-3xl mx-auto px-6 py-12">
+        <article>
+            <div class="mb-10">
+                <Image
+                    width={1020}
+                    height={510}
+                    src={AK}
+                    alt=""
+                    class="w-full rounded-xl"
+                />
+            </div>
+            <div class="prose-content">
+                <p>
+                    Hey,
+                    <br />
+                    I'm <strong>Antoine Kahlouche</strong>, a <strong>French software engineer</strong>, married to a <strong>beautiful wife</strong> and father of <strong>two amazing boys</strong>.
+                    <br /><br />
+                    I'm passionate about <strong>building software</strong>, but also so many other things: learning how things work, learning in general, going on adventures, playing sports, playing with my kids, and sharing ideas.
+                    <br /><br />
+                    I've also been lucky to travel a bit: I lived in <strong>Paris, France for ten yeears</strong> and in <strong>Montreal, Canada for two years</strong>. I then spent <strong>a year traveling across Australia in a motorhome</strong> with my family.
+                </p>
+                <div class="mt-10 flex flex-col gap-4">
+                    <a
+                        href="https://github.com/antoinekahlouche"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="flex items-center gap-1.5 underline"
+                    >
+                        <Fragment set:html={GitHub} />
+                        GitHub
+                    </a>
+                    <a
+                        href="https://linkedin.com/in/antoinekahlouche"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="flex items-center gap-1.5 underline"
+                    >
+                        <Fragment set:html={LinkedIn} />
+                        LinkedIn
+                    </a>
+                    <a href="/rss.xml" class="flex items-center gap-1.5 underline">
+                        <Fragment set:html={RSS} />
+                        RSS
+                    </a>
+                </div>
+            </div>
+        </article>
+    </main>
+</Layout>

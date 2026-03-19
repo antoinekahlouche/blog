@@ -1,0 +1,32 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+
+export function titleToSlug(title: string) {
+    return title
+        .toLowerCase()
+        .replace(/ /g, "-")
+        .replace(/[^a-z0-9-]/g, "");
+}
+
+export async function getStaticPaths() {
+    const posts = await getCollection("blog");
+    const slugs = posts.map((post) => titleToSlug(post.data.title));
+    const duplicates = slugs.filter((slug, i) => slugs.indexOf(slug) !== i);
+    if (duplicates.length > 0) {
+        throw new Error(`Duplicate slugs detected: ${[...new Set(duplicates)].join(", ")}`);
+    }
+    return posts.map((post) => ({
+        params: { slug: titleToSlug(post.data.title) },
+        props: post,
+    }));
+}
+type Props = CollectionEntry<"blog">;
+
+const post = Astro.props;
+const { Content } = await render(post);
+---
+
+<BlogPost {...post.data}>
+    <Content />
+</BlogPost>

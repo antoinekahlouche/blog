@@ -1,0 +1,46 @@
+---
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import Layout from "../../layouts/Layout.astro";
+import { titleToSlug } from "./[...slug].astro";
+
+const posts = (await getCollection("blog")).sort(
+	(a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Layout title="" description="">
+    <main class="max-w-3xl mx-auto px-6 py-12">
+        <section>
+            <ul class="list-none m-0 p-0 flex flex-col gap-6">
+                {
+                    posts.map((post) => (
+                        <li>
+                            <a
+                                href={`/blog/${titleToSlug(post.data.title)}/`}
+                                class="flex flex-col sm:flex-row gap-6 group"
+                            >
+                                <Image
+                                    width={320}
+                                    height={160}
+                                    src={post.data.image}
+                                    alt=""
+                                    class="w-full sm:w-44 h-42 sm:h-28 object-cover rounded-xl shrink-0"
+                                />
+                                <div class="flex flex-col justify-center">
+                                    <h4 class="group-hover:text-white m-0 leading-snug">
+                                        {post.data.title}
+                                    </h4>
+                                    <p class="text-muted text-sm m-0 mb-1">
+                                        <FormattedDate date={post.data.date} />
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </section>
+    </main>
+</Layout>
