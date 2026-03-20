@@ -12,8 +12,19 @@ const { title, description, date, image } = Astro.props;
 <Layout title={title} description={description} image={image}>
     <main class="max-w-3xl mx-auto px-6 py-12">
         <article>
-            <div class="mb-10">
-                <Image width={1020} height={510} src={image} alt="" class="w-full rounded-xl" />
+            <div class="mb-10 overflow-hidden rounded-xl aspect-2/1">
+				<Image
+					width={1020}
+					height={510}
+					src={image}
+					alt={`Hero image for the blog post ${title}`}
+					class="block h-full w-full rounded-xl object-cover"
+					widths={[728, 1020]}
+                    sizes="(min-width: 48rem) 728px, calc(100vw - 3rem)"
+                    loading="eager"
+                    fetchpriority="high"
+                    quality={65}
+                />
             </div>
             <div>
                 <div class="text-center mb-10 pb-10 border-b border-border">

@@ -14,13 +14,16 @@ import RSS from "../svgs/RSS.svg?raw";
 >
     <main class="max-w-3xl mx-auto px-6 py-12">
         <article>
-            <div class="mb-10">
+            <div class="mb-10 overflow-hidden rounded-xl aspect-2/1">
                 <Image
                     width={1020}
                     height={510}
                     src={AK}
-                    alt=""
-                    class="w-full rounded-xl"
+                    alt="Portrait of Antoine Kahlouche"
+                    class="block h-full w-full rounded-xl object-cover"
+                    sizes="(min-width: 48rem) 48rem, calc(100vw - 3rem)"
+                    loading="eager"
+                    fetchpriority="high"
                 />
             </div>
             <div class="prose-content">
