@@ -5,8 +5,6 @@ date: Apr 24 2026
 image: ./bookmark-finder-cover.png
 ---
 
-# I Built a Chrome Extension to Kill the Bookmark Bar
-
 This is a small story about how I built a Chrome extension to put my bookmarks on the New Tab page.
 
 I vibe coded it, and I think it is exactly the kind of small project that is perfect for vibe coding.
