@@ -16,18 +16,21 @@ export async function GET(context) {
         xmlns: {
             atom: "http://www.w3.org/2005/Atom",
             media: "http://search.yahoo.com/mrss/",
+            dc: "http://purl.org/dc/elements/1.1/",
         },
-        customData: `<atom:link href="${rssUrl}" rel="self" type="application/rss+xml" /><lastBuildDate>${new Date().toUTCString()}</lastBuildDate><language>en-us</language><image><url>${feedImageUrl}</url><title>Antoine Kahlouche</title><link>${siteUrl}</link></image>`,
+        customData: `<atom:link href="${rssUrl}" rel="self" type="application/rss+xml" /><lastBuildDate>${new Date().toUTCString()}</lastBuildDate><language>en-us</language><generator>Astro</generator><image><url>${feedImageUrl}</url><title>Antoine Kahlouche</title><link>${siteUrl}</link></image>`,
         items: orderedPosts.map((post) => {
             const imageUrl = new URL(post.data.image.src, siteUrl).toString();
+            const imageType = `image/${post.data.image.format === "jpg" ? "jpeg" : post.data.image.format}`;
+            const content = post.rendered?.html ?? `<p>${post.data.description}</p>`;
 
             return {
                 title: post.data.title,
-                description: post.data.description,
-                pubDate: post.data.date,
-                content: `<img src="${imageUrl}" alt="${post.data.title} thumbnail" /><p>${post.data.description}</p>`,
-                customData: `<media:thumbnail url="${imageUrl}" />`,
                 link: `/blog/${titleToSlug(post.data.title)}/`,
+                pubDate: post.data.date,
+                description: post.data.description,
+                content,
+                customData: `<dc:creator>Antoine Kahlouche</dc:creator><media:content url="${imageUrl}" medium="image" type="${imageType}" width="${post.data.image.width}" height="${post.data.image.height}" />`,
             };
         }),
     });
