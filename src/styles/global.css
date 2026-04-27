@@ -165,6 +165,7 @@
 	}
 
 	pre > code {
+		display: block;
 		background-color: unset;
 	}
 
