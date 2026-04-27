@@ -1,6 +1,6 @@
 ---
 title: "14 Years of Experience. 1,000 Applications. That's the Market Now."
-description: "After a year out of the market, I spent three waves and roughly 1,000 applications fighting my way back into a software job. Here's what the 2025-2026 market felt like from inside the grinder."
+description: "After a year out of the market, I spent three waves and roughly 1,000 applications fighting my way back into a software job. Here's the 2025-2026 market from the inside."
 date: "Apr 11 2026"
 image: "./1000-applications-later-cover.png"
 ---
@@ -19,7 +19,7 @@ I also had real weak points: I was coming back after a year out, I had a broad p
 
 I left my previous job in July 2024 as a contractor.
 
-The original plan was not to disappear for a year and come back job hunting. The original plan was to keep building from that client relationship and relocate to Australia through it. The process was close to done.
+The original plan was to keep building from that client relationship and relocate to Australia through it. The process was close to done.
 
 Then global management killed it by deciding they would stop signing full-remote contracts.
 
@@ -52,13 +52,13 @@ That was the dream version. Best jobs. Maximum freedom. Broadest market.
 It was also the worst conversion.
 
 - Around **600 applications**
-- Mostly through LinkedIn, Remote OK, and similar remote-job platforms
+- Mostly through LinkedIn, [Remote OK](https://remoteok.com/), and similar remote-job platforms
 - A few resume screens, HR calls, and tech tests
 - Mostly ghosting and early rejections
 
 By the end of that first wave, my confidence was at its lowest.
 
-Not because I suddenly thought I was bad at my job. More because the process grinds you down in a stupid way. You keep throwing energy into a machine that mostly returns silence.
+The process grinds you down in a stupid way. You keep throwing energy into a machine that mostly returns silence.
 
 The real risk wasn't money. We had runway. The real fear was uglier:
 
@@ -68,7 +68,7 @@ That fear hit hardest at the end of wave one, while I was also selling the motor
 
 There wasn't one dramatic collapse scene. It was more chronic than cinematic. Loss of hope. Physical fatigue. Short temper. Brain fog.
 
-I was applying like a zombie.
+I was applying on autopilot.
 
 ### Wave 2: Europe and France, Closer but Sharper
 
@@ -78,7 +78,7 @@ This time the target was Europe and France. More grounded. More practical. Still
 
 - Around **300 applications**
 - LinkedIn still number one
-- Welcome to the Jungle close behind
+- [Welcome to the Jungle](https://www.welcometothejungle.com/fr) close behind
 - More traction than wave one
 - Three final-round processes
 - Three rejections right before the finish line
@@ -141,7 +141,7 @@ If one hidden number defines it, it's probably the time.
 
 On heavy weeks, this was a **60h+ effort**.
 
-Not just applying. Also sourcing. Reading offers. Filtering nonsense. Prepping interviews. Following up. Rewriting positioning. Tweaking CVs. Practicing LeetCode. Checking LinkedIn all day like a man with a broken brain.
+Applying was only one part of it. I was also sourcing, reading offers, filtering nonsense, prepping interviews, following up, rewriting positioning, tweaking CVs, practicing [LeetCode](https://leetcode.com/), and checking LinkedIn compulsively.
 
 The time per application ranged from around 5 minutes for easy-apply cases to 30 minutes for roles with custom questions or a cover letter. And that still ignores the time spent just finding decent opportunities.
 
@@ -151,7 +151,7 @@ The waiting was almost as bad as the interviews.
 - Worst case: around **1 month**
 - Longest silence before rejection: around **2 months**
 
-Those waiting periods eat your head in a special way. You replay answers. You invent signals. You negotiate with yourself. You start treating every calendar notification like a medical test result.
+Those waiting periods eat your head in a special way. You replay answers. You invent signals. You negotiate with yourself. Every calendar notification starts carrying too much weight.
 
 Publicly, I downplayed it.
 
@@ -189,7 +189,7 @@ A company from Brittany approached me.
 
 I had done my homework on them, but I went into the interview assuming they would explain the project. During the call, I realized they had expected me to watch a **one-hour corporate YouTube video** beforehand. Nobody had told me that.
 
-I had still done my homework, and I had even used NotebookLM to summarize the video.
+I had still done my homework, and I had even used [NotebookLM](https://notebooklm.google.com/) to summarize the video.
 
 The interviewer got aggressive and said, *"I don't have time to explain all of that to every candidate."*
 
@@ -227,7 +227,7 @@ It was presented as normal. Realistic. The best reflection of the work.
 
 No thanks.
 
-There is a point where "assessment" starts smelling too much like asymmetric free labor, especially when the scope is huge and the expectations are blurry.
+There is a point where "assessment" becomes asymmetric free labor, especially when the scope is huge and the expectations are blurry.
 
 To make it better, the tech lead already seemed not very knowledgeable. That did not exactly inspire trust.
 
@@ -305,7 +305,7 @@ Victory was choosing a job that matched my career-evolution expectations.
 
 For me, evolution means learning Python and having enough autonomy to put things in place and grow.
 
-The bigger company was not bad. Salary, security, and benefits felt roughly comparable. But it looked more like a path I had already lived before.
+The bigger company had good salary, security, and benefits. But it was a path I had already lived before.
 
 I did not want familiar comfort. I wanted forward motion.
 
@@ -329,7 +329,7 @@ It felt good to be back doing real work instead of auditioning for permission to
 
 Not guru advice. Just scars.
 
-### 1. Treat it like a long game
+### 1. Treat it as a long game
 
 If you enter the market assuming it will be quick, the process can punch you in the mouth early.
 
@@ -341,7 +341,7 @@ No fixed schedule. Different people break at different speeds.
 
 But if you feel the beginning of depression, stop and reset.
 
-For me, the warning signs looked like this:
+For me, the warning signs were clear:
 
 - I could not step back and see the big picture
 - I could not think clearly
