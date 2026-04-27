@@ -7,9 +7,9 @@ image: ./bookmark-finder-cover.png
 
 This is a small story about how I built a Chrome extension to put my bookmarks on the New Tab page.
 
-I vibe coded it, and I think it is exactly the kind of small project that is perfect for vibe coding.
+I vibe coded it, and I think it is exactly the small project that is perfect for vibe coding.
 
-I did not build it because I had some grand plan. I built it because my browser was taking too much space. Chrome was basically living on three horizontal layers:
+I built it because my browser was taking too much space. Chrome was basically living on three horizontal layers:
 
 - tab bar
 - URL bar
@@ -17,11 +17,11 @@ I did not build it because I had some grand plan. I built it because my browser 
 
 That is a stupid amount of permanent UI for something I use all day.
 
-It was not intolerable. It was worse than that: it was *normal*. The kind of normal that quietly annoys you for months.
+The annoying part was how normal it had become. A quiet annoyance that lasts for months.
 
 > I am tired of applications taking half the screen just for menus.
 
-Maybe Neovim poisoned my brain a bit. After getting used to that low-chrome, no-menu feeling, a lot of mainstream software starts looking like it is wearing winter clothes indoors.
+Maybe [Neovim](https://neovim.io/) poisoned my brain a bit. After getting used to that low-chrome, no-menu feeling, a lot of mainstream software starts looking overdressed.
 
 ## Helium Solved Two Bars, Not Three
 
@@ -29,7 +29,7 @@ The first fix was [Helium](https://helium.computer/), which lets you merge the t
 
 That immediately felt better.
 
-But it also made the remaining bookmarks bar look even dumber. Once you remove two layers of browser clutter, the last one starts glowing like a design mistake.
+But it also made the remaining bookmarks bar look even dumber. Once you remove two layers of browser clutter, the last one becomes the obvious design mistake.
 
 I wanted to remove it completely.
 
@@ -43,18 +43,18 @@ Then the obvious thing hit me.
 
 My browser is usually on the New Tab page anyway.
 
-I do not live in a pile of 42 open tabs. My pattern is usually more like this:
+I do not live in a pile of 42 open tabs. My pattern is usually this:
 
 1. `Cmd+T`
 2. Open what I need
 3. Check the thing
 4. Close the tab
 
-So the New Tab page is not some empty waiting room. It is the natural home screen of my browser.
+So the New Tab page is the natural home screen of my browser.
 
 That means it is also the right place for bookmarks.
 
-Not the top of the browser, always visible, eating vertical space forever. Right there on the page that appears exactly when I need to launch something.
+Bookmarks belonged on the page that appears exactly when I need to launch something.
 
 The interaction idea was simple:
 
@@ -90,7 +90,7 @@ Sometimes you do not want search. Sometimes you want a launchpad. On the New Tab
 
 ## I Built It Like a Barbarian, Which Was Correct
 
-I built this in mid-April 2026 with GPT-5.4 in OpenCode.
+I built this in mid-April 2026 with GPT-5.4 in [OpenCode](https://opencode.ai/).
 
 Started from blank files.
 
@@ -98,7 +98,7 @@ First useful version took about 30 minutes.
 
 It worked on the first try.
 
-The funny part is that the first version was not bad technically. It was bad visually. The design was awful.
+The funny part is that the first version worked technically, but looked awful.
 
 That was the real bug.
 
@@ -118,7 +118,7 @@ There was not much room for fake progress.
 
 I think this is where a lot of the vibe coding discourse gets confused.
 
-The value was not that AI wrote code while I sat there feeling like a wizard. The value was that it collapsed the distance between an idea and the moment where I could actually *use the thing*.
+The value was that AI collapsed the distance between an idea and the moment where I could actually *use the thing*.
 
 That matters because some product truths are only available through usage.
 
