@@ -32,7 +32,7 @@ That question sent me down a rabbit hole:
 
 > AZERTY → QWERTY → Colemak → custom split keyboard → back to QWERTY.
 
-Yes, I went full keyboard goblin.
+Yes, I went full keyboard nerd.
 
 ![French AZERTY layout used as the baseline before the whole keyboard journey started](./azerty-layout.webp)
 
