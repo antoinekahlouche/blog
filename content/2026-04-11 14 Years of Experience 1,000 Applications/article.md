@@ -1,5 +1,5 @@
 ---
-title: "14 Years of Experience. 1,000 Applications. That's the Market Now."
+title: "14 Years of Experience. 1,000 Applications."
 description: "After a year out of the market, I spent three waves and roughly 1,000 applications fighting my way back into a software job. Here's the 2025-2026 market from the inside."
 date: "Apr 11 2026"
 image: "./1000-applications-later-cover.png"
@@ -130,8 +130,6 @@ I had applied mostly to TypeScript roles during the whole journey.
 I got hired for a **Python** role with no prior professional Python experience.
 
 That alone should tell you how weird and non-linear this whole thing is.
-
-![Map showing job search narrowing from worldwide remote to Europe to French Alps region.](./job-search-geography-funnel.png)
 
 ## What the Search Actually Felt Like
 
@@ -372,6 +370,8 @@ Now we are living it: mountains, hikes, new city, new job, new tech, new school 
 The first sign we made the right call was simple: our new apartment is bright and calm, like a cocoon after a year in a motorhome and months of job-search battle.
 
 ![Illustration placeholder: bright Alpine apartment living room with moving boxes, winter jackets.](./alps-apartment.png)
+
+(Photo for illustrative purposes only; I'm not going to show you where I live.)
 
 I am not trying to change anyone with this story.
 
