@@ -5,6 +5,8 @@ date: "Apr 27 2026"
 image: "./long-polling.png"
 ---
 
+Long polling works because the server waits instead of forcing the client to ask again and again.
+
 In system design interviews, when a client needs to receive events from a server, there are usually three answers people reach for:
 
 - `polling`
@@ -38,7 +40,7 @@ So I looked at polling.
 
 In my head, polling meant the dumb version: a loop hitting the API every `5s` asking, "anything new?"
 
-But while going down that path, I stumbled upon the actual mechanism Telegram uses for this mode.
+While going down that path, I stumbled upon the actual mechanism Telegram uses for this mode.
 
 Long polling.
 
@@ -144,7 +146,7 @@ Yes, you can get real-time behavior with websockets.
 
 Both are valid. Both have their place.
 
-But long polling hits a sweet spot that I had not appreciated enough: it gives you a push-like feeling while keeping the client model boring.
+Long polling hits a sweet spot that I had not appreciated enough: it gives you a push-like feeling while keeping the client model boring.
 
 And boring is good when boring is enough.
 
@@ -157,11 +159,11 @@ From that process, long polling is beautiful because the mental model stays tiny
 
 That is the whole dance.
 
-No public callback URL. No TLS setup rabbit hole. No reverse.
+No public callback URL. No TLS setup rabbit hole. No reverse proxy.
 
 ## The Underrated Middle Option
 
-Long polling sits in a funny place.
+Long polling sits in a useful middle place.
 
 Naive polling is simple but clumsy.
 
@@ -173,15 +175,7 @@ Long polling is the weird middle child that says:
 
 > What if we keep HTTP, keep the client dumb, and just wait a bit before answering?
 
-That fits some problems better than others.
-
-If you have heavy traffic, strict latency needs, bidirectional real-time communication, or a system already designed around event callbacks, you may choose something else.
-
-But for small tools, bots, internal services, and self-hosted nonsense that should stay fun, long polling deserves more respect.
-
-Its charm is practical, not glamorous.
-
-## Start Dumb, Then Earn Complexity
+Its charm is practical.
 
 I like systems that start simple. Not because simple is morally superior, but because complexity lies. It shows up dressed as professionalism, then eats the weekend.
 
@@ -193,7 +187,7 @@ Sometimes the clever move is not to add more machinery, but to let the server wa
 
 Long polling is a clever solution on top of dead-simple behavior.
 
-And that is the kind of engineering trick I love: small surface area, good user feel, almost no ceremony.
+That is the kind of engineering trick I love: small surface area, good user feel, almost no ceremony.
 
 Start with the simplest dumb route first.
 

@@ -5,9 +5,9 @@ date: Mar 17 2026
 image: ./kahboard.jpg
 ---
 
-Hey,
+I built my dream keyboard, used it every day, loved it, and still went back to laptop QWERTY.
 
-I'm a software engineer, which basically means I spend a stupid amount of my life on a keyboard.
+I'm a software engineer, which means I spend a stupid amount of my life on a keyboard.
 
 For years, I used French AZERTY because that was just the default around me. France, work laptops, my wife's laptop, colleagues' keyboards, all of it. The switch came from accumulated friction, not injury or productivity cosplay.
 
@@ -28,11 +28,11 @@ On AZERTY, that code fights you constantly.
 
 These are core ingredients of writing code. So after enough years of this, I stopped thinking, "this is mildly inconvenient," and started thinking, **why the hell is my main tool designed like this?**
 
-That question sent me down a rabbit hole:
+That question sent me down this path:
 
 > AZERTY → QWERTY → Colemak → custom split keyboard → back to QWERTY.
 
-Yes, I went full keyboard nerd.
+I went full keyboard nerd.
 
 ![French AZERTY layout used as the baseline before the whole keyboard journey started](./azerty-layout.webp)
 
@@ -155,7 +155,7 @@ I still wanted:
 
 Which is how I ended up falling into split keyboards.
 
-What started as "I should improve my typing" slowly became "I should probably design my own keyboard now," which is an insane sentence but here we are.
+What started as "I should improve my typing" became "I should probably design my own keyboard now," which is an insane sentence but here we are.
 
 ## Building Kahboard
 
@@ -331,9 +331,9 @@ Wrong ending.
 
 Later, during a 10-month road trip around Australia, I was living in a motorhome with my family.
 
-That changed the whole equation.
+That changed the equation.
 
-If it had been just a month, I probably would not have asked myself any of these questions that seriously. But 10 months is long enough for your setup to stop being a fun exception and start being your actual life.
+If it had been just a month, I probably would not have cared. But 10 months is long enough for your setup to stop being a fun exception and start being your actual life.
 
 There was no proper desk. The table was tiny. There was no room for a mouse, no room for an external split keyboard, no room for the full little ergonomic kingdom.
 

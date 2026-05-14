@@ -31,8 +31,6 @@ We did it for our kids to discover a new place, learn English, and build lifelon
 
 At the fork we said: **"YOLO. You only live once. Let's go."**
 
-It felt like a call to adventure, backed by confidence and runway.
-
 Adventure every day of the week. That's our family DNA.
 
 I still think that choice was right. Strong yes. No hesitation there.
@@ -66,7 +64,7 @@ The real risk wasn't money. We had runway. The real fear was uglier:
 
 That fear hit hardest at the end of wave one, while I was also selling the motorhome in Australia and preparing to leave.
 
-There wasn't one dramatic collapse scene. It was more chronic than cinematic. Loss of hope. Physical fatigue. Short temper. Brain fog.
+There wasn't one dramatic collapse scene. It was chronic. Loss of hope. Physical fatigue. Short temper. Brain fog.
 
 I was applying on autopilot.
 
@@ -85,7 +83,7 @@ This time the target was Europe and France. More grounded. More practical. Still
 
 This was a different kind of pain. In wave one, you mostly get ignored. In wave two, you get close enough to smell the offer and then get told three different versions of "not you."
 
-The feedback was almost funny in how contradictory it looked from the outside:
+The feedback was almost funny from the outside:
 
 - "Not technical enough"
 - "Not manager enough"
@@ -101,7 +99,7 @@ That one, honestly, felt fair.
 
 My previous Tech Lead experience was mostly technical ownership. I was clear about that. I did not pretend I had already done full people and career management when I had not. They picked someone who had. Fine.
 
-The Portugal process was more annoying because it was vague. Previous rounds had gone well. Final interview, the chemistry dropped. My read is simple: they wanted a stronger show of passion for *their* company, and I did not perform that part well enough. By the last rounds, some interviews stop being about engineering and start becoming theater.
+The Portugal process was more annoying because it was vague. Previous rounds had gone well. Final interview, the chemistry dropped. My read is simple: they wanted a stronger show of passion for *their* company, and I did not perform that part well enough. By the last rounds, some interviews stop being about engineering and become theater.
 
 ### Wave 3: The Alps, Less Ego, Better Results
 
@@ -141,7 +139,7 @@ On heavy weeks, this was a **60h+ effort**.
 
 Applying was only one part of it. I was also sourcing, reading offers, filtering nonsense, prepping interviews, following up, rewriting positioning, tweaking CVs, practicing [LeetCode](https://leetcode.com/), and checking LinkedIn compulsively.
 
-The time per application ranged from around 5 minutes for easy-apply cases to 30 minutes for roles with custom questions or a cover letter. And that still ignores the time spent just finding decent opportunities.
+The time per application ranged from around 5 minutes for easy-apply cases to 30 minutes for roles with custom questions or a cover letter. That still ignores the time spent finding decent opportunities.
 
 The waiting was almost as bad as the interviews.
 
@@ -157,7 +155,7 @@ Out loud I said: *"It's hard, but I'll find something."*
 
 Privately, it was heavier than that. Most people had no idea I had applied to around 1,000 jobs. My wife saw the full weight of it.
 
-She was the GOAT through the whole process. She did not just support me emotionally, she helped me triage the offers, read where my head was before I said anything, and kept me steady when the search was grinding me down. That mattered a lot.
+She was the GOAT through the whole process. She helped me triage the offers, read where my head was before I said anything, and kept me steady when the search was grinding me down. That mattered a lot.
 
 ## The Anecdotes, Because Abstract Complaints Are Too Nice
 
@@ -277,11 +275,9 @@ I changed the framing. I changed the ordering. I changed the amount of detail. I
 
 No single change clearly improved outcomes.
 
-The only thing that felt consistently useful was localization.
+The only thing that felt consistently useful was localization. My worldwide CV was not the same as my Europe CV. My Europe CV was not the same as my France CV. The French version was shorter. The more international versions were more detailed.
 
-My worldwide CV was not the same as my Europe CV. My Europe CV was not the same as my France CV. The French version was shorter. The more international versions were more detailed.
-
-That mattered more than hunting for some magic sentence.
+That mattered more than hunting for a magic sentence.
 
 ## Why the Startup Won
 
@@ -303,7 +299,7 @@ Victory was choosing a job that matched my career-evolution expectations.
 
 For me, evolution means learning Python and having enough autonomy to put things in place and grow.
 
-The bigger company had good salary, security, and benefits. But it was a path I had already lived before.
+The bigger company had a good salary, security, and benefits. But it was a path I had already lived before.
 
 I did not want familiar comfort. I wanted forward motion.
 
@@ -367,18 +363,18 @@ This is easier advice to give when money is not tight. I know that. Financial pr
 
 Now we are living it: mountains, hikes, new city, new job, new tech, new school for the kids.
 
-The first sign we made the right call was simple: our new apartment is bright and calm, like a cocoon after a year in a motorhome and months of job-search battle.
+The first sign we made the right call was simple: our new apartment is bright and calm after a year in a motorhome and months of job-search battle.
 
 ![Illustration placeholder: bright Alpine apartment living room with moving boxes, winter jackets.](./alps-apartment.png)
 
 (Photo for illustrative purposes only; I'm not going to show you where I live.)
 
-I am not trying to change anyone with this story.
-
-I am saying something simpler.
+I am saying something simple.
 
 I may not be one-of-a-kind, but I am solid at my craft. I went to war, stayed on an uncertain path, and came out stronger.
 
-Leaving everything for adventure was worth it. After a long fight, I still found the life and job I wanted.
+I left for adventure.
 
-**Have faith in the future, always.**
+Coming back cost more than I expected.
+
+I still think it was worth it.

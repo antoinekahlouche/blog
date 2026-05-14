@@ -7,21 +7,27 @@ image: "mac-mini.jpeg"
 
 Careful: this article contains old photos.
 
+My home server stopped being a toy when it started protecting my family's life.
+
 There is a Mac mini in a closed room in my house.
 
 Next to it, there is an SSD for Docker, an HDD for data, and an empty HDD dock that stays connected for monthly backups.
 
 It runs Docker. It backs up continuously to [Backblaze](https://www.backblaze.com/). It shares files over Samba. I can remote into it with macOS Screen Sharing. [Tailscale](https://tailscale.com/) gives me private access from anywhere.
 
-It took me twelve years to get there.
+It took me twelve years to understand one thing.
 
-This was twelve years of trying things, getting annoyed, rebuilding, moving countries, changing plans, selling machines, backing up photos in public libraries, and eventually admitting what I actually wanted.
+A home server is not a toy first.
+
+It is family infrastructure first. The playground comes after.
+
+This was twelve years of trying things, getting annoyed, rebuilding, moving countries, changing plans, selling machines, backing up photos in public libraries, and eventually admitting what I needed.
 
 ## 2013: The Synology Beginning
 
 My first home server was a Synology around 2013.
 
-The motivation was simple: I wanted to try it. A NAS felt like the adult version of "I have files everywhere and this is stupid." Photos, documents, media, backups, remote access. Put the disks in the box, click through the interface, get something useful.
+The motivation was simple: I wanted to try it. A NAS felt like the adult version of "I have files everywhere and this is stupid." Put the disks in the box, click through the interface, get something useful.
 
 And for a while, that was enough.
 
@@ -47,15 +53,13 @@ The appliance phase was over. This was a computer. My computer. I could build it
 
 That felt good.
 
-The server became more than a storage box: a media machine, a retro-ish gaming machine, a living room computer, and a playground for doing things myself. It had the mess and freedom of a proper PC.
+The server became more than a storage box. It became a media machine, a living room computer, and a playground for doing things myself. It had the mess and freedom of a proper PC.
 
 It also introduced one piece that became non-negotiable for me: Backblaze.
 
 Backblaze felt almost too good to be true. Continuous backup. Fixed price. Unlimited archive.
 
-That mattered.
-
-Because over time I realized I wanted storage and recovery. I wanted a way back if the disk died, if a file vanished, if the house burned down, if everything got stolen.
+Over time I realized I wanted storage and recovery. I wanted a way back if the disk died, if a file vanished, if the house burned down, if everything got stolen.
 
 ## 2020: Back to Synology
 
@@ -67,7 +71,9 @@ I wanted simplicity again. That is the trap, and I mean that with affection. Aft
 
 My brain kept going.
 
-The same limits came back. Weak performance. Bad performance-to-price. Poor evolutivity. Closed system. The feeling that I was paying for simplicity while still hitting walls.
+The same limits came back.
+
+I was paying for simplicity and still hitting walls.
 
 The lesson was obvious and slightly humiliating.
 
@@ -85,11 +91,9 @@ Same basic idea as the old homemade PC, but smaller and with more muscle. It ran
 
 At that point, the plan was to settle in Australia. So the machine made sense. A compact server that could move with us, strong enough to do what I wanted, flexible enough to keep experimenting.
 
-Then the plan changed.
+Then the plan changed. The new plan was a one-year motorhome road trip.
 
-The new plan was a one-year motorhome road trip.
-
-The machine was good, and the new plan needed something smaller.
+The machine was good. The new plan needed something smaller.
 
 I had to sell it.
 
@@ -129,11 +133,11 @@ A backup is a panic-reduction machine.
 
 I want to see a dying disk warning and feel annoyed but calm.
 
-## 2025: The Mac Mini Setup Finally Clicked
+## 2025: The Mac Mini Setup Clicked
 
-In 2025, installed back in France, I bought a Mac mini M4.
+In 2025, back in France, I bought a Mac mini M4.
 
-That is the machine that finally made the setup click.
+That is the machine that finally made the family-infrastructure version click.
 
 The reasons were simple:
 
@@ -198,7 +202,7 @@ Borg gives me history.
 
 Backblaze gives me disaster recovery if the house burns down or everything is stolen. That recovery would be long. Fine. Long is acceptable. Gone is unacceptable.
 
-## The Private Hallway
+## Private Remote Access
 
 I want access from outside the house, but I want it simple and controlled.
 
@@ -224,7 +228,7 @@ It also keeps me out of the paid cloud storage treadmill. With 15+ years and aro
 
 [Ubooquity](https://vaemendis.net/ubooquity/) is the one the kids actually feel.
 
-Both kids reads autonomously on iPads.
+Both kids read on their own on iPads.
 
 Before that, they accessed books as PDFs on the server. It worked, but large PDFs on older iPads felt slow and clumsy. Ubooquity made it simple enough that the server disappeared from their point of view.
 
@@ -236,11 +240,11 @@ That is perfect.
 
 Watching your kids discover old music from your own server is weirdly powerful. It brings back memories, then creates a new shared subject. Suddenly some old track becomes part of the house again.
 
-The rest of the stack is useful too: [Homarr](https://homarr.dev/) for the app dashboard, a small vibe-coded nginx file explorer, [slskd](https://github.com/slskd/slskd) for music, [ConvertX](https://github.com/C4illin/ConvertX) for file conversion, qBittorrent for torrents, [Gluetun](https://github.com/qdm12/gluetun) in front of qBittorrent and slskd, an OpenCode web wrapper in Docker, and LanguageTool corrections in the browser.
+The rest of the stack is useful too: [Homarr](https://homarr.dev/) for the app dashboard, a small vibe-coded nginx file explorer, [slskd](https://github.com/slskd/slskd) for music, [ConvertX](https://github.com/C4illin/ConvertX) for file conversion, qBittorrent for torrents, and [Gluetun](https://github.com/qdm12/gluetun) in front of qBittorrent and slskd.
 
 The server crossed the line from hobby machine to family infrastructure.
 
-## The Dream Setup Fits the Life
+## The Setup Fits the Life
 
 The Mac mini setup still has compromises.
 
@@ -254,4 +258,12 @@ But right now, the feeling is relief.
 
 I found what I need.
 
-The server stores the documents that make bureaucracy less painful. It protects the photos that would be disastrous to lose. It keeps media around. It gives my kids books and manga. It lets them discover old music. It gives me private remote access. It backs up continuously and in layers.
+The server stores the documents that make bureaucracy less painful.
+
+It protects the photos that would be disastrous to lose.
+
+It keeps media around. It gives my kids books and manga. It lets them discover old music. It gives me private remote access.
+
+It backs up continuously and in layers.
+
+That is enough.

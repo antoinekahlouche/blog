@@ -5,9 +5,9 @@ date: Apr 24 2026
 image: ./bookmark-finder-cover.png
 ---
 
-This is a small story about how I built a Chrome extension to put my bookmarks on the New Tab page.
+I built a Chrome extension in 30 minutes because I was tired of losing one line of screen space to bookmarks.
 
-I vibe coded it, and I think it is exactly the small project that is perfect for vibe coding.
+It was exactly the kind of small personal tool that works well with vibe coding.
 
 I built it because my browser was taking too much space. Chrome was basically living on three horizontal layers:
 
@@ -65,7 +65,7 @@ The interaction idea was simple:
 
 The visual inspiration was mostly macOS Finder column view. [Arc](https://arc.net/) maybe helped somewhere in the background because I already liked vertical bookmark navigation, but the real model was Finder.
 
-![Sscreenshot of the extension on a New Tab page.](./bookmark-finder.png)
+![Screenshot of the extension on a New Tab page.](./bookmark-finder.png)
 
 ## What The Extension Does
 
@@ -142,7 +142,7 @@ Once that shape was clear, the rest was mostly execution.
 
 ## What I Learned After Actually Living With It
 
-The biggest surprise is that there was no surprise.
+The biggest surprise was that there was no surprise.
 
 I removed the bookmarks bar completely.
 
@@ -150,7 +150,7 @@ I still use the extension.
 
 I have more vertical space.
 
-The browser feels calmer. It fits my actual behavior better. And because I usually end up back on a New Tab page after closing things, the whole setup feels weirdly natural, like it was made for me.
+The browser feels calmer. It fits my actual behavior better. And because I usually end up back on a New Tab page after closing things, the whole setup feels natural, like it was made for me.
 
 Which, to be fair, it literally was.
 
